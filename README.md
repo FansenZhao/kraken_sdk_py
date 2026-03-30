@@ -15,12 +15,19 @@ conda install scikit-rf -y
 
 ```
 
+# Install
+
+```bash
+conda activate kraken
+pip install -e .
+```
+
 # Example
 ```bash
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from kraken_client import KrakenSDRClient
+from krakensdr import KrakenSDRClient
 
 def run_example():
     # 配置参数

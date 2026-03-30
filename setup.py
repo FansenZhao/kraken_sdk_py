@@ -6,12 +6,7 @@ setup(
     packages=find_packages(),
     # 核心依赖列表
     install_requires=[
-        "numpy",
-        "scipy==1.9.3",
-        "numba==0.56.4",
-        "configparser",
-        "pyzmq",
-        "scikit-rf",
+        "",
     ],
     author="Xudong Zhao",
     description="KrakenSDR Python Client SDK",
